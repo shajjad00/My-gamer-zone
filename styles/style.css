@@ -203,6 +203,43 @@ main {
 }
 /* funny-videos styles end*/
 
+/* play instantly styles */
+.play-instantly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-instantly-text {
+  margin-left: 160px;
+}
+.big-img {
+  width: 600px;
+}
+.play-instantly-img {
+  position: relative;
+}
+.small-img {
+  position: absolute;
+  bottom: -120px;
+  right: -120px;
+  border-radius: 8px;
+}
+.play-instantly-text .title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.play-instantly-text p {
+  color: #534c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 1.5rem;
+}
+/* play instantly styles end*/
+
 /* mobile responsive */
 @media screen and (max-width: 576px) {
 }
