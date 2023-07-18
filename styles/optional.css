@@ -17,6 +17,27 @@
   .social-link {
     width: 300px;
     margin-left: 30px;
-    margin-inline: auto;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin-inline: 10px;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .banner-text {
+    margin-top: 120px;
+  }
+  .funny-videos-item {
+    grid-template-columns: 1fr;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
   }
 }

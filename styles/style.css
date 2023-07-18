@@ -70,8 +70,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 19px;
-  margin-inline: 160px;
+  margin-right: 160px;
 }
 .banner-img img {
   width: 100%;
@@ -91,7 +90,10 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.center {
+  background-image: url("../images/Group14.png");
+  padding: 100px 160px;
+}
 .banner-text p {
   color: #534c64;
   font-size: 20px;
