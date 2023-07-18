@@ -208,6 +208,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 200px;
 }
 .play-instantly-text {
   margin-left: 160px;
@@ -240,6 +241,88 @@ main {
 }
 /* play instantly styles end*/
 
+/* all games start */
+.all-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.game-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.game-genre {
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.game-item:hover {
+  border-radius: 50px;
+  background: #fff;
+  font-weight: 600;
+  border: 1px solid #ff42a5;
+  padding: 8px;
+}
+.game-item:hover p {
+  color: #ff42a5;
+}
+/* all games start */
+
+/* footer styles starts */
+.footer {
+  background-color: #0b0223;
+  padding: 100px 160px;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+.clr-white {
+  color: white;
+}
+.footer-link ul,
+.footer-policy ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link ul li,
+.footer-policy ul li {
+  list-style-type: none;
+  margin-right: 40px;
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  color: white;
+}
+.copy-right {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+/* footer styles end */
 /* mobile responsive */
 @media screen and (max-width: 576px) {
 }

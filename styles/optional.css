@@ -40,4 +40,43 @@
     margin-right: 40px;
     margin-top: 50px;
   }
+  .funny-videos {
+    margin-bottom: 30px;
+  }
+  /* play-instantly start*/
+  .play-instantly {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .play-instantly-text {
+    margin: 0px 10px 50px 10px;
+    text-align: center;
+  }
+  .play-instantly-text .title {
+    font-size: 43px;
+  }
+  .big-img {
+    width: 70%;
+  }
+  .small-img {
+    width: 50%;
+    bottom: -120px;
+    right: 20px;
+  }
+  /* play-instantly end*/
+  /* all games styles */
+  .all-games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    grid-row-gap: 50px;
+  }
+  .game-item {
+    gap: 6px;
+  }
+  .game-genre {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  /* all games styles end */
 }
