@@ -90,9 +90,11 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.center {
+.banner-text {
   background-image: url("../images/Group14.png");
-  padding: 100px 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 160px;
 }
 .banner-text p {
   color: #534c64;
@@ -146,7 +148,7 @@ main {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
 }
 .funny-videos-item {
   display: grid;
@@ -161,7 +163,7 @@ main {
   color: #534c64;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 30px; /* 150% */
+  line-height: 30px;
   margin-top: 0.5rem;
 }
 
@@ -239,7 +241,7 @@ main {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
   margin-top: 1.5rem;
 }
 /* play instantly styles end*/
@@ -325,6 +327,7 @@ a {
   margin-top: 30px;
 }
 /* footer styles end */
+
 /* mobile responsive */
 @media screen and (max-width: 576px) {
 }

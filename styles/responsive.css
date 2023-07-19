@@ -11,14 +11,15 @@
     flex-direction: column;
   }
   .nav-items {
-    margin-top: 40px;
+    /* margin-top: 400px; */
+    margin-right: 5px;
   }
   .nav-items > ul > li {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .social-link {
     width: 300px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   /* nav styles end */
   .banner {
@@ -28,19 +29,21 @@
   .banner-img img {
     width: 100%;
   }
-  .center {
-    display: flex;
+  .banner-text {
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     padding: 10px;
+    margin-inline: auto;
   }
   .banner-text {
-    margin-top: 120px;
+    padding: 50px 50px;
   }
   /* funny videos styles */
 
   .funny-videos-item {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 50px;
@@ -50,10 +53,11 @@
   }
   .content {
     position: absolute;
-    top: 35%;
-    left: 19%;
+    top: 45%;
+    left: 32%;
   }
   /* funny videos end */
+
   /* play-instantly start*/
   .play-instantly {
     flex-direction: column-reverse;
@@ -75,6 +79,7 @@
     right: 20px;
   }
   /* play-instantly end*/
+
   /* all games styles */
   .all-games {
     display: grid;
@@ -93,7 +98,7 @@
 
   /* footer styles start */
   .footer {
-    padding: 100px 50px;
+    padding: 100px 30px;
   }
   .footer-logo {
     margin-bottom: 30px;
@@ -120,12 +125,14 @@
     font-size: 16px;
     font-weight: 400;
     margin-top: 30px;
+    width: 70%;
+    margin-inline: auto;
   }
   /* footer styles end */
 }
 @media screen and (max-width: 768px) {
   main {
-    margin-inline: 10px;
+    margin-inline: 0;
   }
   .nav {
     flex-direction: column;
@@ -161,15 +168,19 @@
   }
   .funny-videos-item {
     grid-template-columns: 1fr 1fr;
-    /* margin-left: 40px;
+    margin-left: 40px;
     margin-right: 40px;
-    margin-top: 50px; */
+    margin-top: 50px;
   }
-  .pause-play {
-    top: 35%;
-    right: 125px;
+  .content {
+    top: 40%;
+    right: 100px;
   }
   .funny-videos {
     margin-bottom: 50px;
+  }
+  .footer-link ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
