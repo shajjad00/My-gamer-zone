@@ -54,6 +54,7 @@ main {
   margin-right: 32px;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 .social-link {
   border-radius: 8px;
@@ -271,6 +272,7 @@ main {
   font-weight: 600;
   border: 1px solid #ff42a5;
   padding: 8px;
+  cursor: pointer;
 }
 .game-item:hover p {
   color: #ff42a5;
@@ -319,6 +321,7 @@ a {
   margin-top: 50px;
   font-size: 2rem;
   color: white;
+  cursor: pointer;
 }
 .copy-right {
   color: rgba(255, 255, 255, 0.6);
