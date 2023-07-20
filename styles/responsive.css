@@ -29,6 +29,9 @@
   .banner-img img {
     width: 100%;
   }
+  .banner-button {
+    display: flex;
+  }
   .banner-text {
     /* display: flex;
     justify-content: center;
@@ -86,6 +89,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     grid-row-gap: 50px;
+    margin-left: 10px;
   }
   .game-item {
     gap: 6px;
